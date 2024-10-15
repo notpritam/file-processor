@@ -57,3 +57,10 @@ async function processFile(filePath, outputPath, serverUrl) {
 }
 
 processFile(argv.file, argv.output, argv.url);
+
+// CURL CODE
+
+// ⁠ curl -X POST \
+//   -H "Content-Type: multipart/form-data" \
+//   -F "file=@input.txt" \
+//   https://server-extension-r3mw.onrender.com/api/file -o output.txt ⁠
