@@ -1,0 +1,24 @@
+{
+  "name": "file-processor-cli",
+  "version": "1.0.0",
+  "description": "CLI tool to process files using a remote server",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "file-processor": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "cli",
+    "file-processing"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.2.0",
+    "form-data": "^4.0.0",
+    "yargs": "^17.3.1"
+  }
+}
