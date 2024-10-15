@@ -28,7 +28,7 @@ const argv = yargs(hideBin(process.argv))
     alias: "u",
     description: "URL of the processing server",
     type: "string",
-    default: "http://localhost:3000/api/process-file",
+    default: "https://server-extension-r3mw.onrender.com/api/file",
   })
   .help()
   .alias("help", "h").argv;
